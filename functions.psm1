@@ -30,6 +30,7 @@ function Use-Slmgr {
 # TODO: Create a hash table for MAK/KMS key centralization
 # key:value || caption:serial
 # TODO: Differentiate between Enterprise/Professional or Standard/Datacenter etc...
+# TODO: Remove versions < 6.0 and allow default case to address
 function Install-WindowsProductKey {
     [CmdletBinding()]
     PARAM (
